@@ -1,0 +1,9 @@
+.categories-page{
+    margin: 20px 10px;
+}
+
+.categories-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

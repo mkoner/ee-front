@@ -1,0 +1,23 @@
+.App{
+  min-height: 90vh;
+}
+
+Link{
+  text-decoration: none;
+}
+
+Link:hover{
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}

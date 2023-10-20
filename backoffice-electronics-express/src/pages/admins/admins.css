@@ -1,0 +1,9 @@
+.admins-page{
+    margin: 20px 10px;
+}
+
+.admins-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

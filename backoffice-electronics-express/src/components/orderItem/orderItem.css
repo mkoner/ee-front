@@ -1,0 +1,39 @@
+.cart-item {
+    width: 100%;
+    display: flex;
+    height: 80px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+.item-details {
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.name {
+    font-size: 16px;
+}
+
+
+
+.update-item-quantity input{
+    width: 40px; 
+}
+
+
+
+.bi-trash{
+    color: red;
+}

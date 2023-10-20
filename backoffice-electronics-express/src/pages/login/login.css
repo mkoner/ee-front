@@ -1,0 +1,37 @@
+.login-page{
+    width: 500px;
+    margin: 100px auto;
+}
+
+
+#logo_center_bar {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    border-radius: 5px;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+#logo_center_bar:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+  }
+
+  #logo_center_bar > img {
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+  }
+
+.login-page form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-btn{
+   margin: auto;
+}
